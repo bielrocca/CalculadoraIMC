@@ -76,27 +76,6 @@ function Form() {
     return (
         <div class="container">
             <h1 className="text-center main-title">Calculadora de IMC</h1>
-            <div className="guide"> {/* guia de uso colapsavel */}
-                <button className="guide-title btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#guide-collapse">
-                    Para ler as instruções da calculadora, clique aqui.
-                </button>
-                <div className="collapse in" id="guide-collapse">
-                    <ul className="guide-list border border-dark rounded">
-                        <li>
-                            Certifique-se de prencher os campos abaixo;
-                        </li>
-                        <li>
-                            Digite sua altura, utilizando o ponto (.) para separar <br /> metros e centímetros;
-                        </li>
-                        <li>
-                            Digite seu peso, utilizando o ponto (.) para separar <br /> quilos e gramas;
-                        </li>
-                        <li>
-                            Clique no botão "Calcular" para descobrir seu IMC.
-                        </li>
-                    </ul>
-                </div>
-            </div>
             <div className="form-div">
                 <form class="row d-flex justify-content-center">
                     <input id="firstInput" type="number" placeholder="Digite aqui sua altura" />
