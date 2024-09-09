@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-title {
+    margin-top: 8px;
+}
+
+.form-div {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 20%;
+}
+
+input {
+    font-size: 16px;
+    height: 35px;
+}
+
+#firstInput {
+    margin-bottom: 8px;
+}
+
+.calculate {
+    font-size: larger;
+}
+
+h1 {
+    margin: 0 auto 8px;
+}
+
+h3 {
+    width: 30%;
+    margin: auto;
+}
+
+hr {
+    margin-top: 0;
+}
+
+.highlited {
+    background-color: green;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.tabela {
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+.guide {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.guide-title {
+    font-size: large;
+    margin: 8px 0 8px 20px;
+}
+
+.guide-list {
+    font-size: medium;
+}
+
+li {
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
